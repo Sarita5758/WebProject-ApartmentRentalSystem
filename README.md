@@ -1,49 +1,38 @@
-# WebProject
-Apartment Rental System
-Overview
+# Apartment Rental Management System
 
-The Apartment Rental Management System is a web-based platform designed to simplify the process of renting apartments. Property owners can list and manage rental properties by providing important details such as apartment size, location, rental price, and availability. Prospective tenants can browse and search for apartments based on their preferred location, budget, and other requirements.
+## Description
 
-The system provides a convenient solution for both landlords and tenants by making rental information easily accessible online. Additionally, tenants can make rent payments through the platform, reducing manual work and saving time for all parties involved. This application is especially useful in urban areas where finding suitable rental housing can be challenging.
+The Apartment Rental Management System is a web-based application developed to simplify the apartment rental process. Property owners can add and manage apartment listings by providing details such as location, rental price, area, and availability. Tenants can easily browse and search for apartments based on their preferred location and budget.
 
-Technologies Used
+The platform benefits both landlords and tenants by providing a centralized system for managing rental properties. It also supports online rent payments, making the rental process faster, more convenient, and efficient. This application is particularly useful in urban areas where finding suitable rental housing can be time-consuming.
 
-Frontend
+---
 
-HTML
-CSS
-JavaScript
-Backend
-Python Flask
-Database
-MySQL
-Prerequisites
+## Technology Used
 
-Before running this project, make sure the following software and dependencies are installed:
+### Front End
+- HTML
+- CSS
+- JavaScript
 
-Python
-MySQL Workbench
-XAMPP Server
-Required Python packages from requirements.txt
+### Back End
+- Python Flask
 
-Install the necessary Python libraries using:
+### Database
+- MySQL
 
-pip install -r requirements.txt
-Setup Instructions
-Clone or fork this repository and open it in VS Code.
-Locate the SQL scripts inside the database folder.
-Execute the SQL commands in MySQL Workbench to create the required database and tables.
-Install and launch XAMPP.
-Start the following services:
-Apache – Handles web requests.
-MySQL – Manages the database.
-Open the main.py file in VS Code.
-Run the Flask application.
-Open the generated local URL in your browser to access the system.
-Features
-Apartment listing and management for property owners
-Search apartments by location and rental budget
-View detailed apartment information
-Online rent payment functionality
-User-friendly interface for landlords and tenants
-Efficient and time-saving rental management process 
+---
+
+## Requirements
+
+Before running the project, make sure the following software is installed:
+
+- Python
+- MySQL Workbench
+- XAMPP Server
+- Required Python libraries from `requirements.txt`
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txtme-saving rental management process 
