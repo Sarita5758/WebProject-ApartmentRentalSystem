@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Payment</title>
+     <title>QR Payment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/PaymentStyle.css') }}">
+    <script src="{{ url_for('static', filename='js/payment.js') }}"></script>
+   
+    <br><img id="preview" src="#" alt="Preview" style="display:none; max-width:200px;">
+</head>
+<body>
+    <h1>Scan and Pay</h1>
+    <p>Scan this QR code with Esewa and send the payment.</p>
+    <img src="{{ url_for('static', filename='qr.jpg') }}" width="300">
+
+    <h3>Upload Payment Proof</h3>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="proof" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>

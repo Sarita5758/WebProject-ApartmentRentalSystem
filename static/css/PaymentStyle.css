@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+	background:  rgb(209, 204, 124);
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+img {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

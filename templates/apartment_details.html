@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ apartment.APT_TITLE }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/detailsStyle.css') }}">
+</head>
+<body>
+    <div class="box">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" onclick="history.back()"><i class="fa fa-arrow-left"></i> Back</a>
+            </div>
+        </nav>
+
+        <div class="formbox">
+            <h1>{{ apartment.APT_TITLE }}</h1>
+            <p><strong>Apartment No:</strong> {{ apartment.ROOM_NO }}</p>
+            <p><strong>Rent:</strong> Rs {{ apartment.RENT_PER_MONTH }}</p>
+            <p><strong>Area:</strong> {{ apartment.AREA }} sq.ft.</p>
+            <p><strong>Bedrooms:</strong> {{ apartment.BEDROOM }}</p>
+            <p><strong>Description:</strong> {{ apartment.APARTMENT_DESC }}</p>
+        </div>
+    </div>
+</body>
+</html>

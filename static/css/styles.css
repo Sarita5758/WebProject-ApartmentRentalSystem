@@ -1,0 +1,11 @@
+.results-container {
+  margin-top: 20px;
+}
+
+.result-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
